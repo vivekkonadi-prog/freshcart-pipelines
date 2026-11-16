@@ -2,7 +2,7 @@
 create_20_commits.py
 ---------------------
 Initializes local git commit history matching the 20 assignment commits
-for Prince Narula (23bcs203).
+for Vivek Konadi (23bcs294).
 """
 
 import subprocess
@@ -29,8 +29,7 @@ def replace_in_file(filepath, old_text, new_text):
 
 def main():
     print("Setting up Git author config...")
-    run_cmd('git config user.name "Prince Narula"')
-    run_cmd('git config user.email "princenarula1313@gmail.com"')
+    run_cmd('git config user.name "Vivek Konadi"')
     
     # Commit 1
     print("Creating Commit 1...")
@@ -112,15 +111,15 @@ def main():
     
     # Commit 14
     print("Creating Commit 14...")
-    append_comment(os.path.join("report", "generate_report_html.py"), "# Verified compilation artifacts for 23bcs203 Prince Narula")
+    append_comment(os.path.join("report", "generate_report_html.py"), "# Verified compilation artifacts for 23bcs294 Vivek Konadi")
     run_cmd('git add report/generate_report_html.py')
-    run_cmd('git commit -m "docs(submission): finalize 23bcs203 Prince Narula final report and compilation artifacts"')
+    run_cmd('git commit -m "docs(submission): finalize 23bcs294 Vivek Konadi final report and compilation artifacts"')
     
     # Commit 15
     print("Creating Commit 15...")
-    append_comment("VIVA_PREPARATION.md", "<!-- Author details updated to Prince Narula (23bcs203) -->")
+    append_comment("VIVA_PREPARATION.md", "<!-- Author details updated to Vivek Konadi (23bcs294) -->")
     run_cmd('git add VIVA_PREPARATION.md')
-    run_cmd('git commit -m "chore(report): update author naming to Prince Narula (23bcs203) across all documents"')
+    run_cmd('git commit -m "chore(report): update author naming to Vivek Konadi (23bcs294) across all documents"')
     
     # Commit 16
     print("Creating Commit 16...")
@@ -157,3 +156,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

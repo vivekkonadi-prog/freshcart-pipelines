@@ -1,5 +1,5 @@
 # Viva Voce Preparation Guide: Data Engineering Pipeline Orchestration
-**Student:** Prince Narula &nbsp;|&nbsp; **Roll Number:** 23bcs203 &nbsp;|&nbsp; **Repository:** `narula1304/freshcart-pipelines`
+**Student:** Vivek Konadi &nbsp;|&nbsp; **Roll Number:** 23bcs294 &nbsp;|&nbsp; **Repository:** `vivekkonadi-prog/freshcart-pipelines`
 
 ---
 
@@ -163,4 +163,4 @@
 | **RabbitMQ** | Topic exchange (`rapido-dispatch`) + HTTP API fallback | Guarantees reliability when enterprise firewalls block raw AMQP ports 5671/5672 | HTTP polling has slightly higher latency (~100ms) than long-lived TCP socket streaming |
 | **Bonus Lakehouse** | 60s micro-batching consumer into landing + COPY INTO | Demonstrates Lambda/Kappa micro-batch bridge from streaming to data warehouse | Micro-batch interval is 60 seconds rather than sub-second real-time streaming |
 
-<!-- Author details updated to Prince Narula (23bcs203) -->
+<!-- Author details updated to Vivek Konadi (23bcs294) -->

@@ -1,9 +1,9 @@
 # FreshCart Pipelines · From Git to Gold
 **Data Engineering: Pipeline Orchestration Final Submission**
 
-**Author:** Prince Narula  
-**Roll Number:** 23bcs203  
-**GitHub Repository:** [https://github.com/narula1304/freshcart-pipelines.git](https://github.com/narula1304/freshcart-pipelines.git)  
+**Author:** Vivek Konadi  
+**Roll Number:** 23bcs294  
+**GitHub Repository:** [https://github.com/vivekkonadi-prog/freshcart-pipelines](https://github.com/vivekkonadi-prog/freshcart-pipelines)  
 **Total Marks Claimed:** 110 / 100 (100 Marks Core + 10 Marks Optional Bonus)
 
 ---
@@ -16,7 +16,7 @@ This repository provides a unified implementation connecting modern data enginee
 3. **Part C (20 Marks) — ML Pipeline with Mage AI:** An orchestrated 4-block Iris classification DAG (`load_iris` &rarr; `check_no_missing` &rarr; `prepare_data` &rarr; `train_model` &rarr; `save_results`) with in-DAG `@test` quality gates, `max_depth = 1..5` test-gate experiments, and a parallel `evaluate_model` metrics branch.
 4. **Part D (20 Marks) — Real-Time Event Streaming with RabbitMQ:** A multi-driver dispatcher-consumer system built on a topic exchange (`rapido-dispatch`), topic wildcard matching (`*` vs `#`), and strict delivery acknowledgement mechanics (`basic_ack` vs `basic_nack(requeue=False)`).
 5. **Optional Bonus (+10 Marks) — Stream into the Lakehouse:** A 60-second micro-batching consumer streaming RabbitMQ food orders through `write_landing()` into Snowflake Bronze, verified with a mandatory two-run idempotency experiment proving zero duplicate rows and zero revenue change.
-6. **Part E (15 Marks) — Academic Report & Viva Voce Guide:** A publication-grade 8-page PDF report (`23bcs203_Prince_Narula_Pipelines.pdf`), full end-to-end integration architecture diagram, engineering reflection, and a comprehensive viva preparation manual (`VIVA_PREPARATION.md`).
+6. **Part E (15 Marks) — Academic Report & Viva Voce Guide:** A publication-grade 8-page PDF report (`23bcs294_Vivek_Konadi_Pipelines.pdf`), full end-to-end integration architecture diagram, engineering reflection, and a comprehensive viva preparation manual (`VIVA_PREPARATION.md`).
 
 ---
 
@@ -111,7 +111,7 @@ freshcart-pipelines/
 │   └── test_stream_routing.py                # Part D1 topic routing test suite (6/6 tests passing)
 │
 ├── report/
-│   ├── 23bcs203_Prince_Narula_Pipelines.pdf   # Main submission PDF (strict 8-page limit + appendix)
+│   ├── 23bcs294_Vivek_Konadi_Pipelines.pdf   # Main submission PDF (strict 8-page limit + appendix)
 │   ├── RollNo_Name_Pipelines.pdf             # Standard generic-named copy for automated grading
 │   ├── report_document.html                  # Source document rendered to PDF via Edge headless
 │   ├── generate_report_html.py               # PDF compiler script
@@ -224,7 +224,7 @@ python -m stream.run_bonus_experiment
 ```bash
 python report/generate_report_html.py
 ```
-*Compiles `report/report_document.html` into `report/23bcs203_Prince_Narula_Pipelines.pdf` and `report/RollNo_Name_Pipelines.pdf` using Microsoft Edge headless.*
+*Compiles `report/report_document.html` into `report/23bcs294_Vivek_Konadi_Pipelines.pdf` and `report/RollNo_Name_Pipelines.pdf` using Microsoft Edge headless.*
 
 <!-- Intermediate HTML files cleaned up -->
 <!-- Modernized architecture flow and overview -->

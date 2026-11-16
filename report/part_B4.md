@@ -23,7 +23,7 @@ This event was appended to the CRM ingest feed and processed into `dim.customers
 
 ## 2. Pre-Execution Predictions vs Actual Snowflake Results
 
-As mandated by academic integrity guidelines, predictions were committed to Git (**Commit [`7fedb30`](https://github.com/narula1304/freshcart-pipelines/commit/7fedb30)**) **prior** to running the modified pipeline.
+As mandated by academic integrity guidelines, predictions were committed to Git (**Commit [`7fedb30`](https://github.com/vivekkonadi-prog/freshcart-pipelines/commit/7fedb30)**) **prior** to running the modified pipeline.
 
 | Metric / Quantity | Predicted Value | Actual Snowflake Value | Verification Status |
 |:---|:---:|:---:|:---:|

@@ -1,5 +1,5 @@
 # Submission Checklist: Data Engineering Pipeline Orchestration
-**Student:** Prince Narula &nbsp;|&nbsp; **Roll Number:** 23bcs203 &nbsp;|&nbsp; **Repository:** `narula1304/freshcart-pipelines`
+**Student:** Vivek Konadi &nbsp;|&nbsp; **Roll Number:** 23bcs294 &nbsp;|&nbsp; **Repository:** `vivekkonadi-prog/freshcart-pipelines`
 
 Every item listed below has been verified against actual project files, execution logs, and live cloud systems.
 
@@ -8,10 +8,10 @@ Every item listed below has been verified against actual project files, executio
 ## Required Submission Deliverables
 
 - [x] **GitHub repository URL included in report**  
-  *Verified:* The public URL `https://github.com/narula1304/freshcart-pipelines.git` is explicitly listed on Page 1, Page 2, and in the metadata box of `report/23bcs203_Prince_Narula_Pipelines.pdf` and `report/RollNo_Name_Pipelines.pdf`.
+  *Verified:* The public URL `https://github.com/vivekkonadi-prog/freshcart-pipelines` is explicitly listed on Page 1, Page 2, and in the metadata box of `report/23bcs294_Vivek_Konadi_Pipelines.pdf` and `report/RollNo_Name_Pipelines.pdf`.
 
 - [x] **GitHub repository public or shared with instructor**  
-  *Verified:* The repository is public on GitHub and accessible at `https://github.com/narula1304/freshcart-pipelines`.
+  *Verified:* The repository is public on GitHub and accessible at `https://github.com/vivekkonadi-prog/freshcart-pipelines`.
 
 - [x] **FreshCart notebook with visible outputs in `elt/`**  
   *Verified:* `elt/freshcart_elt.ipynb` exists (61 cells), containing full execution outputs for Baseline run (B1), record tracing (B2), unsupported currency validation (B3), Arjun SCD2 update (B4), 6th quality check experiment with failure injection (B5), and the Lakehouse streaming idempotency experiment.
@@ -29,7 +29,7 @@ Every item listed below has been verified against actual project files, executio
   *Verified:* Executable driver consumer exists in `stream/driver.py` declaring private queues, binding patterns, acknowledging valid orders with `basic_ack`, and rejecting malformed payloads with `basic_nack(requeue=False)` without hardcoded credentials.
 
 - [x] **PDF report named `RollNo_Name_Pipelines.pdf`**  
-  *Verified:* `report/RollNo_Name_Pipelines.pdf` and `report/23bcs203_Prince_Narula_Pipelines.pdf` exist and are generated via Microsoft Edge headless.
+  *Verified:* `report/RollNo_Name_Pipelines.pdf` and `report/23bcs294_Vivek_Konadi_Pipelines.pdf` exist and are generated via Microsoft Edge headless.
 
 - [x] **Main report within eight pages, excluding screenshot appendix**  
   *Verified:* The main academic report spans **strictly 8 pages** (Pages 1 to 8), with page breaks separating topics cleanly, verified via PDF catalog inspect (`/Count [8, 8, 17]`).

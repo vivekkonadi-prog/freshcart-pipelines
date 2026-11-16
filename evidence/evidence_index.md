@@ -1,5 +1,5 @@
 # Evidence Index: Data Engineering Pipeline Orchestration
-**Student:** Prince Narula &nbsp;|&nbsp; **Roll Number:** 23bcs203 &nbsp;|&nbsp; **Repository:** `narula1304/freshcart-pipelines`
+**Student:** Vivek Konadi &nbsp;|&nbsp; **Roll Number:** 23bcs294 &nbsp;|&nbsp; **Repository:** `vivekkonadi-prog/freshcart-pipelines`
 
 ---
 
@@ -7,7 +7,7 @@
 
 | Requirement | Evidence Filename | What It Proves | Verification Status |
 |:---|:---|:---|:---:|
-| **A1: Repo Structure** | `screenshots/part_A/A1_local_structure.png` & `screenshots/part_A/A1_github_repo_page.png` | Complete repository structure on disk and public GitHub repository (`narula1304/freshcart-pipelines`). | ✅ **VERIFIED** |
+| **A1: Repo Structure** | `screenshots/part_A/A1_local_structure.png` & `screenshots/part_A/A1_github_repo_page.png` | Complete repository structure on disk and public GitHub repository (`vivekkonadi-prog/freshcart-pipelines`). | ✅ **VERIFIED** |
 | **A2: Git Commands** | `report/part_A2.md` & `report/RollNo_Name_Pipelines.pdf` | Comprehensive 6-command Git table (Working Folder, Staging, Local Repo, Remote Repo) and teammate visibility explanation. | ✅ **VERIFIED** |
 | **A3: Green CI Run** | `screenshots/part_A/A3_github_actions_green.png` & `screenshots/part_A/A3_github_actions_fixed_green.png` | Passing GitHub Actions CI run (#1 `43688840048` and #3 `43690601305`) asserting 80/20 train/test split. | ✅ **VERIFIED** |
 | **A3: Red CI Run** | `screenshots/part_A/A3_github_actions_red.png` & `screenshots/part_A/A3_github_actions_history_overview.png` | Intentionally failing CI run (#2 `43690034500`) triggered by `test_size=0.3`, producing an exit code 1 assertion failure. | ✅ **VERIFIED** |
@@ -25,7 +25,7 @@
 | **D2: Dispatcher/Driver**| `screenshots/part_D/D2_D3_stream_terminal_output.png` & `evidence/execution_logs/stream_execution.log` | Multi-driver execution on CloudAMQP topic exchange `rapido-dispatch`; drivers dynamically bind queues and consume matching events. | ✅ **VERIFIED** |
 | **D3: ACK / NACK** | `screenshots/part_D/D2_D3_stream_terminal_output.png` & `report/part_D2_D3.md` | Malformed messages (missing `zone`) rejected via `basic_nack(requeue=False)` and discarded; valid messages acknowledged via `basic_ack`. | ✅ **VERIFIED** |
 | **Bonus: Stream to Lakehouse** | `screenshots/bonus/01_rabbitmq_consumer_batch_collection.png`, `02_landing_file_and_snowflake_load.png`, `03_gold_first_batch_vs_replay_idempotency.png` | 60s stream batching into landing via `write_landing()`, Snowflake load via `load_file()`, and 2-run idempotency proof (Delta Rows: 0, Delta Revenue: ₹0.00). | ✅ **VERIFIED** |
-| **Part E: Final Report** | `report/23bcs203_Prince_Narula_Pipelines.pdf`, `report/RollNo_Name_Pipelines.pdf`, `screenshots/part_E/02_report_page_count_proof.png` | Final academic report strictly 8 main pages, comprehensive integration diagram, half-page reflection, and 9-page appendix. | ✅ **VERIFIED** |
+| **Part E: Final Report** | `report/23bcs294_Vivek_Konadi_Pipelines.pdf`, `report/RollNo_Name_Pipelines.pdf`, `screenshots/part_E/02_report_page_count_proof.png` | Final academic report strictly 8 main pages, comprehensive integration diagram, half-page reflection, and 9-page appendix. | ✅ **VERIFIED** |
 
 ---
 
